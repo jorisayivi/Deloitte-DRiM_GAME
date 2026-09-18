@@ -38,7 +38,6 @@ scripts/                  points d'entrée numérotés, à exécuter dans l'ordr
   03_parametrique.py
   04_random_forest.py
   05_ccf_energie.py
-legacy/                   script exploratoire d'origine, conservé tel quel
 data/raw/                 emplacement attendu des fichiers sources
 outputs/                  graphiques et tables produits
 ```
@@ -78,7 +77,7 @@ Les visualisations descriptives des premières slides (taux de défaillance par 
 
 ## Honnêteté sur la reproduction
 
-Ce dépôt est une réécriture du script de travail utilisé pendant le concours, conservé dans [`legacy/`](legacy/). La réécriture corrige des chemins absolus, factorise quatre blocs de forêt aléatoire quasi identiques et remplace le vocabulaire interne Safe, MidSafe, MidRisky, Risky par la nomenclature A, B, C, D de la présentation.
+Ce dépôt est une réécriture du script de travail utilisé pendant le concours. La réécriture corrige des chemins absolus, factorise quatre blocs de forêt aléatoire quasi identiques et remplace le vocabulaire interne Safe, MidSafe, MidRisky, Risky par la nomenclature A, B, C, D de la présentation.
 
 Deux sections ont dû être reconstruites à partir de la présentation, le code correspondant n'ayant pas été conservé :
 
