@@ -1,0 +1,19 @@
+# Donnees sources, non redistribuees
+data/raw/*
+!data/raw/README.md
+
+# Sorties
+outputs/*
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Systeme
+.DS_Store
+Thumbs.db
